@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+z-index: -10;
+}
+#fc{
+    background: url("https://themewagon.github.io/sogo/images/hero_4.jpg");
+    background-size: 100%;
+    height: 100vh;
+position: relative;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    font-family:Playfair Display ;
+    padding: 3.5vw;
+    color: white;
+    position: fixed;
+    margin-right: 950px;
+    z-index:10;
+    width: 100%;
+    /* background-color: white; */
+
+}
+nav img{
+    width: 3vw;
+}
+nav h1{
+    font-size: 2vw;
+}
+#dehaze{
+    background-color: rgba(0, 0, 0, 0.475);
+    height: 100vh;
+   width: 100%;
+    position: absolute;
+   top: 0;
+z-index: 1;
+
+}
+#fct{
+
+    /* background-color: aqua; */
+    position: absolute;
+    top: 43%;
+    left: 28%;
+    color: white;
+    z-index: 10;
+}
+#fct p{
+font-size: 1vw;
+font-family:Roboto;
+letter-spacing: .3vw;
+text-align: center;
+align-items: center;
+}
+#fct h1{
+font-size: 5vw;
+text-align: center;
+}
+#sc{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f2f4fb;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+#sct{
+/* background-color: rgba(0, 255, 255, 0.321); */
+width: 30vw;
+height: 50vh;
+color: black;
+padding: 3vw;
+margin-top: -7vh;
+display: flex;
+flex-direction: column;
+gap:5vh;
+
+}
+#sct h1{
+font-family:Playfair Display;
+font-size: 4vw;
+}
+#sct p{
+    font-family:Roboto;
+    font-size: 1.2vw;
+    color: #847c94;
+    line-height: 4vh;
+}
+#sci{
+    width: 40%;
+    padding:3vw;
+    position: relative;
+    margin-left: -250px;
+}
+#sci img:nth-child(1){
+    border-radius: 10px;
+    width: 40vw;
+}
+#sci img:nth-child(2){
+    width: 16vw;
+    border-radius: 50%;
+    position: absolute;
+    top:60%;
+    left: 76%;
+    border: .7vw white solid;
+}
+#btnc{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#btnc button:nth-child(1){
+background-color: #ffba5a;
+padding: 1.7vh 2vw;
+border: none;
+color: white;
+border-radius: 2vw;
+font-size: 1vw;
+}
+#btnc button:nth-child(3){
+color: #ffba5a;
+padding: 1.7vh 2vw;
+border: none;
+background: none;
+border-radius: 2vw;
+font-size: 1vw;
+}
+#scmi{
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    top: -7%;
+    width: 80vw;
+    height: 10vh;
+    background-color: white;
+    z-index: 10;
+    padding:2.5vh 0vw;
+    border-radius: 10px;
+}
+#scmi input{
+    width: 15vw;
+    height: 5vh;
+    border-radius: 1vw;
+    text-align: center;
+
+}
+#scmi button{
+    background-color: #ffba5a;
+    color: white;
+    padding: 3vh 4vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    font-size: 1vw;
+border-radius: 40px;
+}
+#tc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+align-items: center;
+gap: 3vh;
+}
+#tc h1{
+    margin-top: 20vh;
+    margin-bottom: 5vh;
+    font-size: 4vw;
+    text-align: center;
+    font-family:Playfair Display;
+}
+#tc p{
+    width: 40%;
+    font-size: 1vw;
+    text-align: center;
+    font-family:Roboto;
+    color: #847c94;
+    line-height: 4vh;
+    margin-bottom: 5vh;
+}
+#tcimgcont{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+}
+#tcimgcont div img{
+    width: 23vw;
+}
+#tcimgcont div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4vh;
+}
+#tcimgcont div h3{
+font-size: 2vw;
+font-weight: 100;
+
+}
+#tcimgcont div p{
+color: #ffba5a;
+text-transform: uppercase;
+
+
+}
+#foc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #e0eef8;
+padding: 5vh 0vw;
+margin-bottom: 5vh;
+
+}
+#foc h1{
+     margin-top: 20vh;
+    margin-bottom: 5vh;
+    font-size: 4vw;
+    text-align: center;
+    font-family:Playfair Display; 
+}
+#foc p{
+      width: 40%;
+    font-size: 1vw;
+    text-align: center;
+    font-family:Roboto;
+    color: #847c94;
+    line-height: 4vh;
+    margin-bottom: 5vh;
+}
+#focimgcont{
+    width: 70%;
+}
+#focimgcont img{
+    width: 100%;
+}
+#fic{
+    background: url("https://themewagon.github.io/sogo/images/hero_3.jpg");
+    background-size: 100%;
+    object-fit:fill;
+    height: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 7vh;
+}
+#itemscont{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+#fic h1{
+    padding-top: 20vh;
+    font-size: 4vw;
+}
+#fic p{
+       width: 40%;
+    font-size: 1vw;
+    text-align: center;
+    font-family:Roboto;
+    color: white;
+    line-height: 4vh;
+    margin-bottom: 5vh;
+}
+#mmc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#mmc h3{
+    margin:0vh 2vw;
+    font-family: Roboto;
+    font-size: 1.5vw;
+    text-transform: uppercase;
+    color: #ffba5a;
+}
+#itc1{
+    width: 40%;
+
+}
+#itc1 div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
